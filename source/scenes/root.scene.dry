@@ -873,3 +873,15 @@ For more information on the politics and government of the Fifth Republic, too b
 view-if: year == 2025
 on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 29; z_relation = 54; dvp_relation = 49; budget = 5;
 go-to: 1928_main
+
+@1928_main
+view-if: year == 1928
+audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_HOHEN_BERGEN_noise_reduced.mp3 music/1928_1930/MarekWeber.mp3 music/1928_1930/BAUERNKAPELLE.mp3 music/1928_1933/DERLINDENBAUM_normalized.mp3 music/1928_1933/ZurSonne_zurFreiheit.mp3 music/1928_1933/arbeiter_marseille.mp3 music/1928_1933/Wann_wir_schreiten_Seit_an_Seit.mp3 music/1930_1933/Internationale-de_normalized.ogg
+new-page: true
+go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
+
+= 2025
+
+It is a hopeful time for Owlian democracy. After a long period of stagnation, the Federation of the Owl has been dissolved, and the Fifth Republic has been declared.
+
+Now, the task of the newly-formed Owlian Liberal Alliance (OLA) is to prepare for the upcoming elections, where we stand to dominate the political left.
